@@ -1,0 +1,71 @@
+.wrapper {
+    border:0;
+    display: flex;
+
+    width: 20px;
+    width: 736px;
+    display: inline-block; /* ou display: inline-flex */
+
+    margin-top: 64px;
+
+}
+
+
+.topContainer {
+    border:0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 24px;
+
+}
+
+
+.topLeft {
+    border:0;
+    color: var(--blue);
+
+
+}
+.topRight {
+    border:0;
+    color: var(--purple);
+}
+
+.ball {
+    border:0;
+    background-color: var(--gray-400);
+    color: var(--gray-100);
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 50px;
+    margin-left: 8px;
+}
+
+
+.bottomContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:0;
+
+    color:var(--gray-300);
+    height: 244px;
+    width: 736px;
+    
+    line-height: 22.4px;
+
+    
+    border: 2px solid #333333; /* Largura de borda aplicada diretamente ao elemento filho */
+
+    border-width: 2px  0 0 0;
+    border-radius: 8px;
+}
+
+.bottomContainer img{
+  margin-bottom: 16px;
+}
+
+ 
